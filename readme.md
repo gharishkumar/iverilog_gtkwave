@@ -45,7 +45,7 @@
    ```
 4. Combile using iverilog
    ```bash
-   iverilog exorGate.v exorGate_tb.v -o exor_wav
+   iverilog exorGate.v exorGate_tb.v -o exor_wave
    ```
 5. Generate waveform
    ```bash
