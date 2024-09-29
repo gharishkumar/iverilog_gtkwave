@@ -31,7 +31,7 @@
                     );
 
    initial begin
-   $dumpfile("testexor.vcd");
+   $dumpfile("testexor.vcd"); //specific to iverilog
    $dumpvars(0,exorGate_tb);
 
          a=1'b0;b=1'b0;
