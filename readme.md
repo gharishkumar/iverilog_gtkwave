@@ -34,6 +34,7 @@
    $dumpfile("testexor.vcd"); //specific to iverilog
    $dumpvars(0,exorGate_tb);
 
+   $monitor( $time, " a=%b b=%b y=%b",a,b,c); //to monitor and print over time
          a=1'b0;b=1'b0;
    #10   a=1'b0;b=1'b1;
    #10   a=1'b1;b=1'b0;
